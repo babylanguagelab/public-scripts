@@ -9,9 +9,9 @@ This program takes all the .its files from a folder and removes information that
 ```shell
 python main.py
 ```
-Step 1: Select the folder that contains its files.
-Step 2(optional): Configure the options for sensitive information in its files. Depending on your participant labelling system, you may or may not want to change these information.
-Step 3: Run.
+* Step 1: Select the folder that contains its files.
+* Step 2(optional): Configure the options for sensitive information in its files. Depending on your participant labelling system, you may or may not want to change these information.
+* Step 3: Run.
 
 ## Sensitive Information:
 ### Identify Info:
