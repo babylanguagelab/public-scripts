@@ -15,11 +15,11 @@ python main.py
 
 ## Sensitive Information:
 ### Identify Info:
-1. Serial Number: keep, fuzz[default->0000]
+1. Serial Number: keep, fuzz[default->0]
 2. Gender: keep[default], delete
 3. Algorithm Age: keep[default], delete 
-4. Child ID: keep, fuzzy[default]
-5. child Key: keep, fuzzy[default] 
+4. Child ID: keep, fuzzy[default->0]
+5. child Key: keep, fuzzy[default->0] 
 
 ## Time Info:
 1. Enroll Data: keep, delete[default]
@@ -27,7 +27,7 @@ python main.py
 3. Time Zone: keep, delete[default]
 4. UTC Time: keep, delete[default]
 
-## xpath for Information:
+## xpath for ITS file:
 ./ProcessingUnit/UPL_Header/TransferredUPL/RecordingInformation/TransferTime/LocalTime
 ./ProcessingUnit/UPL_Header/TransferredUPL/RecordingInformation/TransferTime/TimeZone 
 ./ProcessingUnit/UPL_Header/TransferredUPL/RecordingInformation/TransferTime/UTCTime 
