@@ -1,13 +1,9 @@
-# public-scripts
-This is a collection of public scripts for LENA related works.
+# Introduction:
+This is a collection of scripts for LENA related works. You may need to install the extra software to run the scripts. Please see the specific readme for the script that you want to run.
 
 ## Requirements:
-- python 2.7
-- gtk 3.0 or above
+- [python 2.7](https://www.python.org/downloads/release/python-2710/)
+- [gtk-3](https://wiki.gnome.org/action/show/Projects/PyGObject?action=show&redirect=PyGObject)
 
-## GUI APP:
-- its anonymous: This is a program that helps user to make senstitive information in its files which generated from LENA anonymous.
-
-## Command Line:
-
-## Library:
+## GUI Applications:
+- its anonymous: This is a script that helps user to remove/fuzz sensitive information from its files.
