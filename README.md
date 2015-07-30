@@ -1,12 +1,12 @@
 # public-scripts
-This is a collection of public scripts for LENA processing.
+This is a collection of public scripts for LENA related works.
 
 ## Requirements:
 - python 2.7
 - gtk 3.0 or above
 
 ## GUI APP:
-- its anonamization: This is a program help user to anonimization sensity information in its files which generated from LENA.
+- its anonymous: This is a program that helps user to make senstitive information in its files which generated from LENA anonymous.
 
 ## Command Line:
 
