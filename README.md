@@ -6,4 +6,4 @@ This is a collection of scripts for LENA related works. You may need to install 
 * [gtk-3](https://wiki.gnome.org/action/show/Projects/PyGObject?action=show&redirect=PyGObject)
 
 ## GUI Applications:
-* [its filter](https://github.com/babylanguagelab/public-scripts/tree/master/gui/its_anonymization): This is a script that helps user to remove/fuzz sensitive information from its files.
+* [its filter](https://github.com/babylanguagelab/public-scripts/tree/master/gui/its_anonymization): This script helps user to remove/fuzz sensitive information from its files.
