@@ -22,7 +22,7 @@ CONF_DICT = {
 }
 ```
 Before colon, it is domain items in ITS file. After colon, it is configuration for this domain item in square bracket.
-# 0 stands for no change.
-# 1 stands for delete.
-# 2 stands for use dummy value followed after comma.
+* 0 stands for no change.
+* 1 stands for delete.
+* 2 stands for use dummy value followed after comma.
 
