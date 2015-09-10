@@ -28,6 +28,11 @@ The first part before colon is the name of entry in .its file. The second part i
 - 2 --> use dummy value.
 
 The second number in configuration stands for dummy value.
+=======
+Before colon, it is domain items in ITS file. After colon, it is configuration for this domain item in square bracket.
+* 0 stands for no change.
+* 1 stands for delete.
+* 2 stands for use dummy value followed after comma.
 
 Here are some explanations for each entry:
 - Serial Number: "This is the serial number of the DLP. Fuzz replaces the value with random or specified new values."
