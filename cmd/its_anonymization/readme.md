@@ -28,7 +28,6 @@ The first part before colon is the name of entry in .its file. The second part i
 - 2 --> use dummy value.
 
 The second number in configuration stands for dummy value.
-=======
 Before colon, it is domain items in ITS file. After colon, it is configuration for this domain item in square bracket.
 * 0 stands for no change.
 * 1 stands for delete.
