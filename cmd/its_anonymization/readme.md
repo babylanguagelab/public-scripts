@@ -1,13 +1,14 @@
 ## Introduction:
 This python script takes all the .its files from current folder and removes information that might be used to identify the child, based on the user's selections. 
-It will generate a new folder named "output" in the current location with modified ITS files in it. 
-It will also generate an report spreadsheet as "overview.csv". All changes that happen to these ITS files will be showed in this overview file. For example, if one entry in ITS file is deleted, it will show the original value for this entry. If one entry is modified to a dummy value, it will show the original value and new value. 
+It will generate a new folder named "output" in the current location with modified .its files in it. 
+It will also generate a report spreadsheet as "overview.csv". All changes that happen to these .its files will be showed in this overview file. For example, if one entry in .its file is deleted, it will show the original value for this entry. If one entry is changed to a dummy value, it will show the original value and new value. 
 
 ## Usage:
-Put the "its_anonymize.py" in a folder with .its files you want to process. And run this python script.
+Put the "its_anonymize.py" in a folder with .its files you want to process. Then run this python script.
+If you have any problem with software dependency , please refer to this [readme](https://github.com/babylanguagelab/public-scripts).
 
 ## Configuration:
-Based on different purposes, this script is designed to be configurable. At the beginning of this script, you will see something like this:
+Based on different purposes, this script is designed to be configurable. At beginning of this script, you will see some sentences like this:
 ```python
 CONF_DICT = {
     "Serial Number": [2, "0000"],
@@ -22,13 +23,13 @@ CONF_DICT = {
     "Clock Time": [2, "0"]
 }
 ```
-The first part before colon is the name of entry in .its file. The second part in square bracket is configuration. The first number in configuration stands for behaviour for this entry.
+The first part before colon is name of entry in .its file. The second part in square bracket is configuration. The first number in configuration stands for behaviour for this entry.
 - 0 --> no change.
 - 1 --> delete.
 - 2 --> use dummy value.
 
 The second number in configuration stands for dummy value.
-Before colon, it is domain items in ITS file. After colon, it is configuration for this domain item in square bracket.
+Before colon, it is domain items in .its file. After colon, it is configuration for this domain item in square bracket.
 * 0 stands for no change.
 * 1 stands for delete.
 * 2 stands for use dummy value followed after comma.
